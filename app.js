@@ -6,6 +6,8 @@ function fib(n) {
         return 1;
     }
     return fib(n - 1) + fib(n - 2);
+    console.log(n);
+    console.log(fib);
 }
 const length = 40;
 for (let i = 0; i <= length; i++) {
